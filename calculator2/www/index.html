@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>calculator2</title>
+    </head>
+    <body>
+        <!--<div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+            <h2>Test text</h2>
+        </div>-->
+        <main>
+            <header>
+                <h1>Calculator</h1>
+            </header>
+            <div id="display">0</div>
+            <div id="calc">
+                <div id="btnC">C</div>
+                <div id="btnM">M</div>
+                <div id="btnMR">MR</div>
+                <div id="btnDivide">/</div>
+            </div>
+            <div id="calc">
+                <div id="btn7">7</div>
+                <div id="btn8">8</div>
+                <div id="btn9">9</div>
+                <div id="btnMultiply">*</div>
+            </div>
+            <div id="calc">
+                <div id="btn4">4</div>
+                <div id="btn5">5</div>
+                <div id="btn6">6</div>
+                <div id="btnMinus">-</div>
+            </div>
+            <div id="calc">
+                <div id="btn1">1</div>
+                <div id="btn2">2</div>
+                <div id="btn3">3</div>
+                <div id="btnPlus">+</div>
+            </div>
+            <div id="calc">
+                <div id="btnNeg">+/-</div>
+                <div id="btn0">0</div>
+                <div id="btnPeriod">.</div>
+                <div id="btnTotal">=</div>
+            </div>
+            <!--<section>
+        <input id="btnClear" type="button" value="C" />
+        <input id="btnDivide" type="button" value="/" />
+        <input id="btnMultiply" type="button" value="*" />
+        <input id="btnMinus" type="button" value="-" />
+        <input id="btnPlus" type="button" value="+" />
+    </section>-->
+        </main>
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
+</html>

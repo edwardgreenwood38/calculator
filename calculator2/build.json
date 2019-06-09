@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "Q:\\data\\keystore_I.keystore",
+        "storePassword": "DAusa1992",
+        "alias": "andriod-key1",
+        "password": "DAusa1992",
+        "keystoreType": ""
+      }
+     }
+ }
